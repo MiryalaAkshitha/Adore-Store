@@ -31,7 +31,7 @@ outline:none;
 .ecom-navpill{
     padding:var(--s);
 }
-.ecom-wishlist,.ecom-profile, .ecom-cart{
+.ecom-wishlist,.ecom-profile, .ecom-cart, .ecom-login{
     color:var(--primary-color);
 }
 .ecom-categories-container{
