@@ -1,0 +1,78 @@
+.ecom-login-navpills{
+display:flex;
+}
+.login-box{
+    display:flex;
+    height:80vh;
+    justify-content: center;
+    align-items:center;
+}
+.login-title{
+color:var(--dark-color);
+font-weight:600;
+text-transform:uppercase;
+margin-bottom:var(--s) ;
+border-bottom:3px solid var(--primary-color);
+letter-spacing:1px;
+padding-bottom:0.5rem;
+}
+.input-box{
+    margin-bottom:var(--s);
+
+}
+.user-data{
+    margin-bottom:5px;
+    display:inline-block;
+    color:var(--paragraph-color);
+    letter-spacing:1px;
+    font-weight:300;
+
+}
+input{
+    width:100%;
+    padding:var(--xs) var(--s);
+    outline:none;
+    font-weight:400;
+    border:1px solid var(--disabled-color);
+    letter-spacing:1px;
+    background-color:transparent;
+    border-radius:1.875rem;
+}
+input:focus{
+    color: var(--primary-color);
+}
+
+.remember{
+    display:flex;
+    margin-bottom:var(--xs);
+    font-size:14px;
+    font-weight:400;
+    width:max-content;
+
+}
+input[type="checkbox"]{
+    width:fit-content;
+}
+
+input[type="submit"]{
+    background-color: var(--primary-color);
+    color:var(--text-color);
+    outline:none;
+    border:none;
+    cursor:pointer;
+    font-weight:600;
+    text-transform: uppercase;
+}
+.login-desc{
+    color:var(--dark-color);
+    font-weight:600;
+}
+.login-desc a{
+    color:var(--primary-color);
+    text-decoration:underline;
+}
+.form-box{
+    border:3px solid var(--disabled-color);
+    padding:2.5rem;
+    border-radius:0.5rem;
+}

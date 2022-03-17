@@ -1,12 +1,15 @@
-body{
+/* body{
     overflow: hidden;
-}
+} */
 .ecom-navbar{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding:var(--s);
+
+    /* position:sticky; */
+    /* top:0; */
 }
 .landing-page-name{
 justify-content: flex-start;
