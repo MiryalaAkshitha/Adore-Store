@@ -1,6 +1,4 @@
-/* body{
-    overflow: hidden;
-} */
+
 .ecom-navbar{
     display:flex;
     flex-wrap: wrap;
@@ -8,8 +6,6 @@
     align-items: center;
     padding:var(--s);
 
-    /* position:sticky; */
-    /* top:0; */
 }
 .landing-page-name{
 justify-content: flex-start;
@@ -46,9 +42,6 @@ outline:none;
 }
 .ecom-category{
     padding:15px;
-    /* font-family: 'Abril Fatface', cursive; */
-    /* font-family: 'Dancing Script', cursive; */
-    /* font-size:20px; */
     border-radius:var(--s);
     border:none;
 
