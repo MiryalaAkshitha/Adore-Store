@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product-listing</title>
+    <link rel="stylesheet" href="/utilities.css">
+    <link rel="stylesheet" href="../product-listing/product-listing.css">
+</head>
+
+<body>
+    <div class="ecom-navbar ecom-product-navbar">
+        <div class="ecom-title landing-page-name">Adore</div>
+
+        <div class="ecom-navpills">
+            <input class="ecom-search" type="text" placeholder="what are you searching for ?" />
+            <div class="ecom-navpill">
+                <i class="fas fa-2x fa-shopping-cart ecom-cart"></i>
+            </div>
+            <div class="ecom-navpill">
+                <i class="fal fa-2x fa-heart ecom-wishlist"></i>
+            </div>
+            <div class="ecom-navpill">
+                <i class="fas fa-2x fa-user-alt ecom-profile"></i>
+            </div>
+            <div class="ecom-navpill">
+                <a href="/auth/login.html"><i class="fas fa-2x fa-sign-in ecom-login"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="ecom-categories-container">
+        <button class="ecom-category">WOMEN</button>
+        <button class="ecom-category">MEN</button>
+        <button class="ecom-category">BEAUTY</button>
+        <button class="ecom-category">CHILDREN</button>
+        <button class="ecom-category">HOME & LIVING</button>
+    </div>
+    <hr>
+    <section>
+
+
+        <div class="filter-wrapper">
+            <div class="clear-filter"><i class="far fa-times-square"></i></div>
+
+            <span class="filters-title">Filters</span>
+
+            <div class="filter-price ">
+                <span class="filter">Price</span>
+                <label>
+                    <input type="radio" name="" />Low to High
+                </label>
+                <label>
+                    <input type="radio" name="" />High to Low
+                </label>
+            </div>
+            <div class="filter-category">
+                <span class="filter">Category</span>
+                <label>
+                    <input type="checkbox" name="" />Women
+                </label>
+                <label>
+                    <input type="checkbox" name="" />Men
+                </label>
+                <label>
+                    <input type="checkbox" name="" />Children
+                </label>
+                <label>
+                    <input type="checkbox" name="" />Beauty
+                </label>
+
+
+            </div>
+            <div class="rating-slider">
+                <span class="filter">Rating</span>
+                <div class="rating-ranges">
+                    <p>3</p>
+                    <p>4.5</p>
+                    <p>5</p>
+                </div>
+                <input class="slider" type="range" name="" min="3" max="5">
+            </div>
+
+
+        </div>
+
+        <!-- product 1  -->
+        <div class="products-container">
+            <div class="card-ecom card">
+                <img src="/assests/ecom-product1.jpg" alt="image" class="card-img card-img-ecom">
+                <div class="card-ecom-badge">Trending!!</div>
+                <div class="card-ecom-like-icon"><i class="fal fa-heart"></i></div>
+                <div class="card-header">
+                    <div class="card-sub-title">Libas</div>
+                    <div class="card-title">floral dress</div>
+                    <div class="card-ecom-price">
+                        <span class="card-ecom-price-current">Rs.799</span>
+                        <span class="card-ecom-price-old">1299</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="card-btn-box">
+                        <button class="ecom-btn primary-color">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <!-- product 2  -->
+            <div class="card-ecom card">
+                <img src="/assests/ecom-product.webp" alt="iPhone Image" class="card-img card-img-ecom">
+                <div class="card-ecom-badge">Trending!!</div>
+                <div class="card-ecom-like-icon"><i class="fal fa-heart"></i></div>
+                <div class="card-header">
+                    <div class="card-sub-title">Anouk</div>
+                    <div class="card-title">Ethnic Print Kurtha Set</div>
+                    <div class="card-ecom-price">
+                        <span class="card-ecom-price-current">Rs.1299</span>
+
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="card-btn-box">
+                        <button class="ecom-btn primary-color">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-ecom card">
+                <img src="/assests/ecom-product2.webp" alt="iPhone Image" class="card-img card-img-ecom">
+                <div class="card-ecom-like-icon"><i class="fal fa-heart"></i></div>
+                <div class="card-header">
+                    <div class="card-sub-title">Roadster</div>
+                    <div class="card-title">pure cotton T-shirt</div>
+                    <div class="card-ecom-price">
+                        <span class="card-ecom-price-current">Rs.999</span>
+                        <span class="card-ecom-price-old">Rs.1499</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="card-btn-box">
+                        <button class="ecom-btn primary-color">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-ecom card">
+                <img src="/assests/ecom-product4.webp" alt="iPhone Image" class="card-img card-img-ecom">
+                <div class="card-ecom-like-icon"><i class="fal fa-heart"></i></div>
+                <div class="card-header">
+                    <div class="card-sub-title">M.A.C</div>
+                    <div class="card-title">Mini Matte Lipstick</div>
+                    <div class="card-ecom-price">
+                        <span class="card-ecom-price-current">Rs.1100</span>
+                        <span class="card-ecom-price-old">Rs.107900</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="card-btn-box">
+                        <button class="ecom-btn primary-color">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    </div>
+
+</body>
+
+</html>

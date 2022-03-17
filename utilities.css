@@ -1,9 +1,12 @@
 @import url("https://adoreui.netlify.app/style/index.css");
 @import "./homepage.css";
+
+
 :root{
     --xs:0.625rem;
     --s:1.25rem;
     --light:300;
     --md:400;
     --bold:600;
+    --large:800;
 }
