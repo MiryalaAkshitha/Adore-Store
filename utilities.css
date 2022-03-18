@@ -1,5 +1,9 @@
 @import url("https://adoreui.netlify.app/style/index.css");
 @import "./homepage.css";
+@import './auth/auth.css';
+@import "./components/product-listing/product-listing.css";
+@import './components/wishlist/wishlist.css';
+@import './components/cart/cart.css';
 
 
 :root{
