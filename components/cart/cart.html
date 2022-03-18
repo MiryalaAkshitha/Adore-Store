@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="/utilities.css">
+</head>
+
+<body>
+    <div class="ecom-navbar ecom-product-navbar">
+        <a href="/index.html">
+            <div class="ecom-title landing-page-name">Adore</div>
+        </a>
+
+        <div class="ecom-navpills">
+            <input class="ecom-search" type="text" placeholder="what are you searching for ?" />
+            <a class="ecom-navpill">
+                <a href="/components/cart/cart.html"><i class="fas fa-2x fa-shopping-cart ecom-cart"></i></a>
+        </div>
+        <div class="ecom-navpill">
+            <a href="/components/wishlist/wishlist.html">
+                <i class="fal fa-2x fa-heart ecom-wishlist"></i></a>
+        </div>
+        <div class="ecom-navpill">
+            <i class="fas fa-2x fa-user-alt ecom-profile"></i>
+        </div>
+        <div class="ecom-navpill">
+            <a href="/auth/login.html"><i class="fas fa-2x fa-sign-in ecom-login"></i></a>
+        </div>
+    </div>
+    </div>
+    <div class="wrapper">
+
+        <section class="product-container cart-container">
+
+            <div class="cart-card">
+                <div class="cart-img">
+                    <img src="/assests/ecom-product.webp" class="cart-img">
+                </div>
+                <div class="cart-details">
+                    <div class="cart-item product-brand">Anouk</div>
+                    <div class="cart-item ">Pure cotton kurtha set</div>
+                    <div class="cart-item">Quantity :
+                        <button class="cart-item-count-btn">-</button>
+                        01
+                        <button class="cart-item-count-btn">+</button>
+                    </div>
+                    <div class="cart-item cart-item-price">Rs. 999</div>
+                    <button class="btn btn__primary">REMOVE</button>
+                </div>
+            </div>
+
+            <div class="cart-card">
+                <div class="cart-img">
+                    <img src="/assests/ecom-product1.jpg" class="cart-img">
+                </div>
+                <div class="cart-details">
+                    <div class="cart-item  product-brand">Libas</div>
+                    <div class="cart-item">Floral dress</div>
+                    <div class="cart-item">Quantity :
+                        <button class="cart-item-count-btn">-</button>
+                        01
+                        <button class="cart-item-count-btn">+</button>
+                    </div>
+                    <div class="cart-item cart-item-price">Rs. 1299</div>
+                    <button class="btn btn__primary">REMOVE</button>
+                </div>
+            </div>
+
+        </section>
+        <div class="filter-wrapper cart-sidebar">
+            <div class="side-bar-heading">PRICE DETAILS</div>
+            <hr>
+            <div class="filter-heading filter-heading-top">
+                Total Price (2 ITEMS) : Rs. 2298
+            </div>
+            <div class="filter-heading">
+                Discount : -Rs. 199
+            </div>
+            <div class="filter-heading">
+                Shipping : Free
+            </div>
+            <div class="filter-heading filter-heading-top">
+                Final Price (2 ITEMS) : Rs. 2,099
+            </div>
+
+            <div class="clear-button-content">
+                <button class="btn clear-button btn-cart-remove btn-pay">PROCEED TO PAY</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

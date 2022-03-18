@@ -6,42 +6,44 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
-  <link rel="stylesheet" href="homepage.css" />
   <link rel="stylesheet" href="utilities.css" />
 </head>
 
 <body>
   <!-- <div class="ecom-homepage"> -->
   <!-- navbar  -->
-  <div class="ecom-navbar">
-    <div class="ecom-title landing-page-name">Adore</div>
+  <div class="ecom-navbar ecom-product-navbar">
+        <a href="/index.html">
+            <div class="ecom-title landing-page-name">Adore</div>
+        </a>
 
-    <div class="ecom-navpills">
-      <input class="ecom-search" type="text" placeholder="what are you searching for ?" />
-      <div class="ecom-navpill">
-        <i class="fas fa-2x fa-shopping-cart ecom-cart"></i>
-      </div>
-      <div class="ecom-navpill">
-        <i class="fal fa-2x fa-heart ecom-wishlist"></i>
-      </div>
-      <div class="ecom-navpill">
-        <i class="fas fa-2x fa-user-alt ecom-profile"></i>
-      </div>
-      <div class="ecom-navpill">
-        <a href="/auth/login.html"><i class="fas fa-2x fa-sign-in ecom-login"></i></a>
-      </div>
+        <div class="ecom-navpills">
+            <input class="ecom-search" type="text" placeholder="what are you searching for ?" />
+            <div class="ecom-navpill">
+                <a href="/components/cart/cart.html"><i class="fas fa-2x fa-shopping-cart ecom-cart"></i></a>
+            </div>
+            <div class="ecom-navpill">
+                <a href="/components/wishlist/wishlist.html"><i class="fal fa-2x fa-heart ecom-wishlist"></i></a>
+            </div>
+            <div class="ecom-navpill">
+                <i class="fas fa-2x fa-user-alt ecom-profile"></i>
+            </div>
+            <div class="ecom-navpill">
+                <a href="/auth/login.html"><i class="fas fa-2x fa-sign-in ecom-login"></i></a>
+            </div>
+        </div>
     </div>
-  </div>
 
   <!-- categories -->
 
   <div class="ecom-categories-container">
-    <button class="ecom-category">WOMEN</button>
-    <button class="ecom-category">MEN</button>
-    <button class="ecom-category">BEAUTY</button>
-    <button class="ecom-category">CHILDREN</button>
-    <button class="ecom-category">HOME & LIVING</button>
-  </div>
+        <a href="/components/product-listing/product-listing.html"><button class="ecom-category">WOMEN</button></a>
+        <a href="/components/product-listing/product-listing.html"><button class="ecom-category">MEN</button></a>
+        <a href="/components/product-listing/product-listing.html"><button class="ecom-category">BEAUTY</button></a>
+        <a href="/components/product-listing/product-listing.html"><button class="ecom-category">CHILDREN</button></a>
+        <a href="/components/product-listing/product-listing.html"><button class="ecom-category">HOME &
+                LIVING</button></a>
+    </div>
   <!-- image  -->
   <div class="image-wrapper">
     <img class="ecom-image" src="./assests/ecom image.jpg" />
